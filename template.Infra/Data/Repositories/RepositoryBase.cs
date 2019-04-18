@@ -6,7 +6,7 @@ using template.Domain.Interfaces;
 using template.Domain.Models;
 
 namespace template.Infra.Data.Repositories {
-    public class RepositoryBase<TModel> : IRepository<TModel> where TModel : ModelBase {
+    public class RepositoryBase<TModel> : IRepository<TModel> where TModel : EntityBase {
         private readonly DbContext _context;
 
         public RepositoryBase (DbContext context) {

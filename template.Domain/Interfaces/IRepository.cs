@@ -5,7 +5,7 @@ using template.Domain.Models;
 
 namespace template.Domain.Interfaces
 {
-    public interface IRepository<TModel> where TModel : ModelBase
+    public interface IRepository<TModel> where TModel : EntityBase
     {
         Task<TModel> CreateAsync(TModel obj);
         Task<TModel> UpdateAsync(Guid id, TModel obj);
