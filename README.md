@@ -28,7 +28,7 @@ dotnet new -h
 Será listado o template conforme abaixo:
 
 
-![logo]('./dotnet-template.png')
+![logo]('dotnet-template.png')
 
 
 Para utiliza-lo use o comando:
