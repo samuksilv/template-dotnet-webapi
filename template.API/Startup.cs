@@ -90,7 +90,8 @@ namespace template.API {
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
             // specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI (c => {
+            app.UseSwaggerUI (c => {                
+                c.RoutePrefix = "";                
                 c.SwaggerEndpoint ("/swagger/v1/swagger.json", "v1");
             });
 

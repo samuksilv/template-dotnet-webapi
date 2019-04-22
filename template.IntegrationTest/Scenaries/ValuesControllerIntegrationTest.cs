@@ -12,9 +12,7 @@ namespace template.IntegrationTest.Scenaries {
         private readonly HttpClient _client;
         private readonly WebApplicationFactory<Startup> _factory;
 
-        public ValuesControllerIntegrationTest (AppFactory<Startup> factory) {
-            // this._client = new HttpClient();
-            // this._client.BaseAddress = factory.ClientOptions.BaseAddress;
+        public ValuesControllerIntegrationTest (AppFactory<Startup> factory) {            
             this._factory= factory;
             this._client= this._factory.CreateClient();
         }
@@ -22,7 +20,7 @@ namespace template.IntegrationTest.Scenaries {
         [Fact]
         public async Task CanGetValues () {
             // The endpoint or route of the controller action.
-            var httpResponse = await _client.GetAsync ("/api/values");
+            var httpResponse = await _client.GetAsync ("/api/template/value");
 
             // Must be successful.
             httpResponse.EnsureSuccessStatusCode ();

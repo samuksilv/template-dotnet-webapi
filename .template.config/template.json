@@ -1,0 +1,15 @@
+{
+    "author": "Samuel Carvalho",
+    "classifications": [
+        "Web",
+        "WebAPI"
+    ],
+    "name": "Samuel API Template",
+    "identity": "Samuel.Template",
+    "shortName": "SamApi",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "template",
+    "preferNameDirectory": "true"
+}

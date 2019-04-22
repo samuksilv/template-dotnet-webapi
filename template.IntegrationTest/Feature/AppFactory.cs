@@ -9,6 +9,8 @@ namespace template.IntegrationTest.Feature
 {
     public class AppFactory<TStartup>: WebApplicationFactory<Startup> where TStartup: class
     {
+        //this is an example explain how to override configurations of class Startup.cs
+
         // protected override void ConfigureWebHost(IWebHostBuilder builder)
         // {
         //     builder.ConfigureServices(services =>
