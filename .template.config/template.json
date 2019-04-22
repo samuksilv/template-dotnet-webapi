@@ -10,6 +10,13 @@
     "tags": {
         "language": "C#"
     },
+    "sources": [
+		{
+			"modifiers": {
+				"exclude": [ "**/*README.md" ]
+			}
+		}
+	],
     "sourceName": "template",
     "preferNameDirectory": "true"
 }
