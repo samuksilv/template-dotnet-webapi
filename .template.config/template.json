@@ -11,12 +11,14 @@
         "language": "C#"
     },
     "sources": [
-		{
-			"modifiers": {
-				"exclude": [ "**/*README.md", "**/*dotnet-template.png" ]
-			}
-		}
-	],
+        {
+            "exclude": [
+                "**/*README.md",
+                "**/*dotnet-template.png",
+                "**/*.template.config"
+            ]
+        }
+    ],
     "sourceName": "template",
     "preferNameDirectory": "true"
 }
