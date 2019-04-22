@@ -6,7 +6,7 @@
     ],
     "name": "Samuel API Template",
     "identity": "Samuel.Template",
-    "shortName": "SamApi",
+    "shortName": "samAPI",
     "tags": {
         "language": "C#"
     },
