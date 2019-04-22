@@ -16,19 +16,23 @@ namespace template.API.Controllers {
             this._log.LogInformation ("*** API funcionando ***");
         }
 
-        [HttpGet]
-        [Route ("value")] public async Task<ActionResult<IEnumerable<string>>> GetAsync () {
+        [HttpGet("value")]        
+        public async Task<ActionResult<IEnumerable<string>>> GetAsync () {
             return new string[] { "value1", "value2" };
         }
 
-        [HttpGet ("value/{id}")] public async Task<ActionResult<string>> GetAsync (int id) {
+        [HttpGet ("value/{id}")]
+        public async Task<ActionResult<string>> GetAsync (int id) {
             return "value";
         }
 
-        [HttpPost ("value")] public async Task PostAsync ([FromBody] string value) { }
+        [HttpPost ("value")]
+        public async Task PostAsync ([FromBody] string value) { }
 
-        [HttpPut ("value/{id}")] public async Task PutAsync ([FromRoute] int id, [FromBody] string value) { }
+        [HttpPut ("value/{id}")]
+        public async Task PutAsync ([FromRoute] int id, [FromBody] string value) { }
 
-        [HttpDelete ("value/{id}")] public async Task DeleteAsync (int id) { }
+        [HttpDelete ("value/{id}")]
+        public async Task DeleteAsync (int id) { }
     }
 }
