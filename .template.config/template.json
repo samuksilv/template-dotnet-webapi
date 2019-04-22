@@ -4,8 +4,8 @@
         "Web",
         "WebAPI"
     ],
-    "name": "Samuel API Template",
-    "identity": "Samuel.Template",
+    "name": "Samuel API templateAPI",
+    "identity": "Samuel.templateAPI",
     "shortName": "samAPI",
     "tags": {
         "language": "C#"
@@ -14,11 +14,11 @@
         {
             "exclude": [
                 "**/*README.md",
-                "**/*dotnet-template.png",
-                "**/*.template.config"
+                "**/*dotnet-templateAPI.png",
+                "**/*.templateAPI.config"
             ]
         }
     ],
-    "sourceName": "template",
+    "sourceName": "templateAPI",
     "preferNameDirectory": "true"
 }
