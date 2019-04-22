@@ -13,7 +13,7 @@
     "sources": [
 		{
 			"modifiers": {
-				"exclude": [ "**/*README.md" ]
+				"exclude": [ "**/*README.md", "**/*dotnet-template.png" ]
 			}
 		}
 	],
