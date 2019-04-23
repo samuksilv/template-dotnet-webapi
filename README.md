@@ -1,4 +1,4 @@
-# templateAPI Web API ASP.NET Core
+# TemplateAPI Web API ASP.NET Core
 
 Exemplo de um templateAPI asp.net core, estruturado com DDD. Serve como uma casca com exemplos para agilizar o inicio de um projeto novo.
 
