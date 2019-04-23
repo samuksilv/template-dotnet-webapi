@@ -28,7 +28,7 @@ dotnet new -h
 Será listado o templateAPI conforme abaixo:
 
 
-![logo](dotnet-templateAPI.png)
+![logo](dotnet-template.png)
 
 
 Para utiliza-lo use o comando:

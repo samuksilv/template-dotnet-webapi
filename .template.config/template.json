@@ -4,8 +4,8 @@
         "Web",
         "WebAPI"
     ],
-    "name": "Samuel API templateAPI",
-    "identity": "Samuel.templateAPI",
+    "name": "Samuel API template",
+    "identity": "Samuel.template",
     "shortName": "samAPI",
     "tags": {
         "language": "C#"
@@ -14,8 +14,9 @@
         {
             "exclude": [
                 "**/*README.md",
-                "**/*dotnet-templateAPI.png",
-                "**/*.templateAPI.config"
+                "**/*dotnet-template.png",
+                "**/*.template.config",
+                "**/*template.json"
             ]
         }
     ],
